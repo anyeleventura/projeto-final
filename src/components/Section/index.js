@@ -15,7 +15,7 @@ export default function SectionSix()
                     <h5><strong>Oferta especial</strong></h5>
                     <h2><strong>Air Jordan edição de colecionador</strong></h2>
                     <Paragrafo class="paragrafo" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"/>
-                    <Button class="buttonsee" text="Ver Oferta" />
+                    <a href="/*"><Button class="buttonsee" text="Ver Oferta" /></a>
                 </div>
             </section>
         </>
