@@ -2,7 +2,7 @@ export default function Button(props)
 {
     return(
         <>
-        <button className={props.tipo}>{props.text}</button>
+        <button className={props.class}>{props.text}</button>
         </>
     )
 }

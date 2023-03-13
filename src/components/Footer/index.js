@@ -13,13 +13,13 @@ export default function Footer()
             <div className="sectionup">
                 <div className=" about">
                     <div className="logo">
-                        <div><img src={Logodc}/></div>
+                        <div><img alt="logo da Digital College" src={Logodc}/></div>
                         <div><h3>Digital Store</h3></div>
                     </div>
                     <Paragrafo class="paragrafos paraabout" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."/>
-                    <a href='https://www.facebook.com'><img className="icon" src={Facebook}/></a>
-                    <a href='https://www.instagram.com'><img className="icon" src={Instagram}/></a>
-                    <a href='https://twitter.com/home'><img className="icon" src={Twitter}/></a>
+                    <a href='https://www.facebook.com'><img alt="logo do Facebook" className="icon" src={Facebook}/></a>
+                    <a href='https://www.instagram.com'><img alt="logo do Instagram" className="icon" src={Instagram}/></a>
+                    <a href='https://twitter.com/home'><img alt="logo do Twitter" className="icon" src={Twitter}/></a>
                 </div>
                 <div className="column">
                     <h4>Informações</h4>
