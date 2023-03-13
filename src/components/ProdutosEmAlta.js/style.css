@@ -1,0 +1,16 @@
+.produto{
+    padding: 10px;
+    border: 2px solid white;
+    width: 300px;
+}
+
+.produto img {
+    width: 300px
+}
+
+.catalogo {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
