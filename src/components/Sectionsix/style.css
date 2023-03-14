@@ -7,36 +7,36 @@
     margin-top: 3px;
     background-color: #fff;
 }
-.colunaone {
+.sectionsix > .colunaone {
     width: 500px;
     padding-right: 50px;
 }
-.colunatwo {
+.sectionsix > .colunatwo {
     margin-left: 10px;
     width: 540px;
 }
-h5 {
+.colunatwo > h5 {
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 14px;
     color: #C92071;
     margin-bottom: 10px;
 }
-h2 {
+.colunatwo > h2 {
     line-height: 50px;
     font-size: 48px;
     color: #474747;
     margin-top: 7px;
     margin-bottom: 5px;
 }
-.paragrafo {
+.colunatwo > .paragrafo {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #474747;
     margin-bottom: 28px;
 }
-.buttonsee {
+a > .buttonsee {
     font-weight: 700;
     background-color: #C92071;
     color: #F5F5F5;
@@ -46,12 +46,12 @@ h2 {
     border: none;
     border-radius: 6px;
 }
-.buttonsee:hover {
+a > .buttonsee:hover {
     background-color: #fff;
     border: 1px solid #C92071;
     color: #C92071;
 }
-.image {
+.colunaone > .image {
     width: 80vh;
-    background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(circle at 50% 50%, #333 2px 10px, #333 5px, #eee 58%, #fff 10%);
 }
