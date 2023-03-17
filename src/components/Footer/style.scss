@@ -1,13 +1,14 @@
+@import '../../App.scss';
 footer {
     display:flex;
     justify-content: space-between;
-    background-color: #1F1F1F;
-    color: #fff;
+    background-color: $bitblack;
+    color: $white;
     .sectionup {
         display: flex;
         align-items: center;
         height: 53vh;
-        background-color: #1F1F1F;
+        background-color: $bitblack;
     }
     .logo {
         display: flex;
@@ -49,8 +50,8 @@ footer {
     .about > .paraabout {
         font-weight: 300;
         font-size: 0.9rem;
-        margin-top: 30px !important;
-        margin-bottom: 40px !important;
+        margin-top: 30px;
+        margin-bottom: 40px;
         line-height: 24px;
         width: 307px;
     }
@@ -60,7 +61,7 @@ footer {
         line-height: 24px;
     }
     a > .icon {
-        margin-right: 30px !important;
+        margin-right: 30px;
         padding-bottom: 70px;
     }
     .creditos {
@@ -68,7 +69,7 @@ footer {
         justify-content: center;
         align-items: center;
         height: 10vh;
-        border-top: 1px solid #ffffff49;
+        border-top: 1px solid $bitgray;
     }
     .creditos .patente {
         font-weight: 200;
