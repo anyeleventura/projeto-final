@@ -1,4 +1,4 @@
-import Produto from './components/Produto';
+import Produto from './components/ProdutosemAlta';
 import Ways from './routes/Ways';
 
 
