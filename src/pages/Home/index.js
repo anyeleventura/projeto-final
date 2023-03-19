@@ -1,12 +1,20 @@
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Banner from '../../components/Banner';
+import ColecaoDestaque from '../../components/ColecaoDestaque';
+import ColecoesDestaqueIcones from '../../components/ColecoesDestaqueIcones';
 import SectionSix from '../../components/Sectionsix';
+import Footer from '../../components/Footer';
+
 import './style.css';
+
 export default function Home() 
 {
     return(
         <>
         <Header/>
+        <Banner/>
+        <ColecaoDestaque />
+        <ColecoesDestaqueIcones />
         <SectionSix/>
         <Footer/>
         </>
