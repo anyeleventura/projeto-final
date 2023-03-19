@@ -23,7 +23,7 @@
     .colunatwo > h2 {
         line-height: 50px;
         font-size: 3rem;
-        color: $darkgray;
+        color: $darkgrey;
         margin-top: 20px;
         margin-bottom: 2vh;
     }
@@ -31,14 +31,14 @@
         font-weight: 400;
         font-size: 1rem;
         line-height: 28px;
-        color: $darkgray;
+        color: $darkgrey;
         margin-bottom: 28px;
-        width: 80vh;
+        width: 70vh;
     }
     a > .buttonsee {
         font-weight: 500;
         background-color: $pink;
-        color: $gray;
+        color: $grey;
         width: 185px;
         height: 6vh;
         font-size: 0.8rem;
@@ -52,7 +52,6 @@
     }
     .colunaone .bg-img {
         position: absolute;
-        top: 10vh;
         left: 24vh;
         width: 66vh;
         height: 70vh;

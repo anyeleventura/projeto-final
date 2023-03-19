@@ -1,4 +1,7 @@
+import { Container } from '@mui/material';
+
 import Ofertaespecial from './ofertaespecial.svg';
+
 import './style.scss';
 
 export default function SectionSix()
@@ -6,6 +9,7 @@ export default function SectionSix()
     return(
         <>
         <div className="section6">
+            <Container>
             <section className="sectionsix">
                 <div className="colunaone">
                     <div className="bg-img"></div>
@@ -20,6 +24,7 @@ export default function SectionSix()
                     </a>
                 </div>
             </section>
+            </Container>
         </div>
         </>
     )
