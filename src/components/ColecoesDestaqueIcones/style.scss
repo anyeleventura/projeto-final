@@ -1,47 +1,42 @@
 @import '../../App.scss';
 
 
-.background-collection {
-    background-color: $grey-background;
-}
-
-.bg {
-    background-color: #F9F8FE;
-    }
-    
-    
-  .iconeslinks a{
-    text-decoration: none;
+.icons a{
     display: flex;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
     font-weight: 700;
     font-size: 14px;
-    color: #474747;
-
+    color: $darkgrey;
     padding-top: 1.15rem;
 }
 
-.h3dest{
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 2.37rem;
-    color: #474747;
-
-    margin-bottom: 1.25rem;
-    padding-top: 5.3rem;
+.icons a:hover {
+    color: $pink;
+    cursor: pointer;
 }
 
-.iconeslinks a:hover {
-    color: #C92071;
-    // text-decoration: underline;
+.background-collection {
+    background-color: $grey;
+
+    .container-collection {
+        background-color: $grey;
+        height: 19rem;
+    }
+
+    .collection{
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.37rem;
+        color: $darkgrey;
+    
+        margin-bottom: 1.25rem;
+        padding-top: 5.3rem;
+    }
 }
 
 
-.container-collection {
-    background-color: $grey-background;
-    // height: 15.6rem;
-    height: 19rem;
-}
+

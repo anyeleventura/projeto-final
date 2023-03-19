@@ -28,7 +28,7 @@ export default function Banner()
                                 Consequat culpa exercitation mollit nisi excepteur do <br/>
                                 do tempor laboris eiusmod irure consectetur
                             </p>
-                            <button className="ofertas-btn">
+                            <button className="offers-btn">
                                 Ver Ofertas
                             </button> 
                         </div>
@@ -37,15 +37,11 @@ export default function Banner()
 
                             <div className="slides">
 
-                                {/* CONSERTAR O PROBLEMA DO ID...trocar por:  */}
-                                {/* <!-- radios --> */}
                                 <input type="radio" name="radio-btn" id="radio1" />
                                 <input type="radio" name="radio-btn" id="radio2" />
                                 <input type="radio" name="radio-btn" id="radio3" />
                                 <input type="radio" name="radio-btn" id="radio4" />
-                                {/* <!-- fim radio buttoms -->
 
-                                {/* <!-- imagens --> */}
                                 <div className="slide first">
                                     <img src={Tenis} alt="" />
                                 </div>
@@ -58,21 +54,16 @@ export default function Banner()
                                 <div className="slide">
                                     <img src={Tenis} alt="" />
                                 </div>
-                                {/* <!-- fim imagens --> */}
 
-                                {/* <!-- navigation auto --> */}
                                 <div className="navigation-auto">
-                                <div className="auto-btn1"></div>
-                                <div className="auto-btn2"></div>
-                                <div className="auto-btn3"></div>
-                                <div className="auto-btn4"></div>
+                                    <div className="auto-btn1"></div>
+                                    <div className="auto-btn2"></div>
+                                    <div className="auto-btn3"></div>
+                                    <div className="auto-btn4"></div>
                                 </div>
-                                {/* <!-- fim navigation auto --> */}
 
                             </div>
 
-
-                            {/* CONSERTAR O PROBLEMA DO FOR...trocar por: htmlFor="radio1" */}
                             <div className="manual-navigation">
                                 <label htmlFor="radio1" className="manual-btn"></label>
                                 <label htmlFor="radio2" className="manual-btn"></label>

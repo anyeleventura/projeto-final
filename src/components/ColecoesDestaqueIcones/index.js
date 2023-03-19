@@ -5,8 +5,6 @@ import React from "react";
 // import "./styles.css"  --- mudei para style.scss;
 import "./style.scss";
 
-import { grey } from '@mui/material/colors';
-
 import { Avatar, Container, Grid } from "@mui/material";
 
 
@@ -51,11 +49,11 @@ export default function ColecoesDestaqueIcones() {
   const Sections = () => {
     return colecoes.map((cada, posicao) => {
       return (
-        <Grid key={posicao} item className="iconeslinks" onClick={() => setAtivo(posicao)}>
+        <Grid key={posicao} item className="icons" onClick={() => setAtivo(posicao)}>
           <Avatar sx={{ backgroundColor: "white", height: "104px", width: "104px"}}>
-            <img src={posicao === ativo ? cada.imagemAtiva : cada.imagem} alt="qualquercoisa" />
+            <img src={posicao === ativo ? cada.imagemAtiva : cada.imagem} />
           </Avatar>
-          <Link  to="/" className='link'>{cada.nome}</Link>
+          <Link  to="/">{cada.nome}</Link>
         </Grid>
       );
     });
@@ -64,12 +62,14 @@ export default function ColecoesDestaqueIcones() {
   return (
     <>
       <div className='background-collection'>
+
         <Container className='container-collection'>
-          <h3 className="h3dest">Coleções em destaque</h3>
+          <h3 className="collection">Coleções em destaque</h3>
           <Grid container direction="row" justifyContent="center" spacing={5}>
             <Sections />
           </Grid>
         </Container>
+        
       </div>
     </>
   );
