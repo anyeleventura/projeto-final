@@ -63,12 +63,14 @@ export default function ColecoesDestaqueIcones() {
 
   return (
     <>
+      <div className='background-collection'>
         <Container className='container-collection'>
           <h3 className="h3dest">Coleções em destaque</h3>
           <Grid container direction="row" justifyContent="center" spacing={5}>
             <Sections />
           </Grid>
         </Container>
+      </div>
     </>
   );
 }

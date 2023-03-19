@@ -14,10 +14,17 @@ export default function ColecaoDestaque(){
 
     return(
         <>
+
+        <div className='background-destaque'>
             <Container>
+
+                <p className="destaque">Coleção Destaque</p>
 
                 <div className="segura">
 
+                    {/* <p>Coleção Destaque</p> */}
+                    
+                    {/* <div> */}
                     <Paper elevation={2} sx={{ backgroundColor: blue[100]}} style={{width: "370px", height: "218px", display: "flex", justifyContent: "space-between"}}>
                                 <div style={{display: "flex", flexDirection: "column", marginLeft: "20px"}}>
                                     <Chip label="30% OFF" sx={{backgroundColor: lime["A100"], fontWeight: "Bold"}} style={{ width: "82px", marginTop: "19px"}}/>
@@ -50,10 +57,12 @@ export default function ColecaoDestaque(){
                                     <img src={Fone01} style={{width: "100%"}} />
                                 </div>
                     </Paper>
+                    {/* </div> */}
 
                 </div>
 
             </Container>
+            </div>
         </>
     )
 }

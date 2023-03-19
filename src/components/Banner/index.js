@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
+
+import "./style.scss";
+
 import Tenis from '../../Imagens/tenis.svg';
-import "./style.css";
+// import "./style.css";
 import {Container} from "@mui/material";
 
 
@@ -22,8 +25,8 @@ export default function Banner()
                                 estoque Nike 🔥
                             </p>
                             <p className="text-banner">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                est blanditiis omnis repellendus deserunt inventore temporibus.
+                                Consequat culpa exercitation mollit nisi excepteur do <br/>
+                                do tempor laboris eiusmod irure consectetur
                             </p>
                             <button className="ofertas-btn">
                                 Ver Ofertas

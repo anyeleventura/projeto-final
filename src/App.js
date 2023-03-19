@@ -1,5 +1,5 @@
 // import Banner from "./components/Banner";
-// import Footer from "./components/Banner";
+
 import React from 'react';
 import './App.scss';
 
