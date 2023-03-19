@@ -5,9 +5,9 @@ import "./style.scss";
 import { Button, Paper, Chip, Grid, Container } from '@mui/material';
 import { blue, pink , lime} from '@mui/material/colors';
 
-import Blusa01 from '../../Imagens/blusa01.svg';
-import Tenis01 from '../../Imagens/tenis01.svg';
-import Fone01 from '../../Imagens/fone01.svg';
+import Blusa01 from './blusa01.svg';
+import Tenis01 from './tenis01.svg';
+import Fone01 from './fone01.svg';
 
 
 export default function ColecaoDestaque(){

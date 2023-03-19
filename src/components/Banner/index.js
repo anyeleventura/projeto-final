@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.scss";
 
-import Tenis from '../../Imagens/tenis.svg';
+import Tenis from './tenis.svg';
 // import "./style.css";
 import {Container} from "@mui/material";
 
