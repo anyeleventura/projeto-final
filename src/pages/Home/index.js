@@ -9,9 +9,9 @@ import ColecaoDestaque from '../../components/ColecaoDestaque';
 export default function Home() {
   return (
     <>
-      {/* <Banner/> */}
-      {/* <ColecoesDestaqueIcones /> */}
+      <Banner/>
       <ColecaoDestaque />
+      <ColecoesDestaqueIcones />
     </>
   );
 }

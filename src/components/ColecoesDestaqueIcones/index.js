@@ -48,14 +48,6 @@ export default function ColecoesDestaqueIcones() {
     },
   ];
 
-  // const isActive = ( ) => {
-  //     if (cada.nome === isActive) {
-  //         return "active";
-  //     }
-
-  //     return "";
-  // };
-
   const Sections = () => {
     return colecoes.map((cada, posicao) => {
       return (
@@ -71,17 +63,12 @@ export default function ColecoesDestaqueIcones() {
 
   return (
     <>
-
-      {/* <div className="bgGray"> */}
-        {/* <Container> */}
-        {/* <Container sx={{ backgroundColor: grey[200] }}> */}
         <Container className='container-collection'>
           <h3 className="h3dest">Coleções em destaque</h3>
-          <Grid container direction="row" justifyContent="center" spacing={2}>
+          <Grid container direction="row" justifyContent="center" spacing={5}>
             <Sections />
           </Grid>
         </Container>
-      {/* </div> */}
     </>
   );
 }
