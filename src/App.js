@@ -1,4 +1,5 @@
-import Produto from './components/ProdutosemAlta';
+
+import Home from './pages/Home';
 import Ways from './routes/Ways';
 
 
@@ -10,7 +11,7 @@ export default function App()
   return(
     <>
       <Ways/>
-      <Produto />
+      <Home/>
     </>
   )
 }

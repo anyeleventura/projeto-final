@@ -2,7 +2,7 @@ import { Container, Grid, Card, Badge, Chip  } from '@mui/material';
 import './style.css';
 import tenis from './produto.png';
 import React from 'react';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 
 function Produto(props){
     
