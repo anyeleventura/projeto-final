@@ -7,7 +7,7 @@
 ## Introdução
 <h4 align="center">Drip Store é um projeto em fase de desenvolvimento idealizado pela Digital College para o curso de Full Stack, ele consiste em um modelo de loja online, através do desenvolvimento front-end é possível visualizar como esta aplicação se comportaria, tendo em vista suas telas e sessões onde é possível haver interações entre usuário e sistema. </h4>
   
-  :open_file_folder: **Acesso ao projeto:** Para visualizar o projeto há duas opções, [você pode baixar o código fonte clicando aqui](https://exemplo.com/) ou pode acessar [este link](https://exemplo.com/) para ter acesso ao resultado de tudo que foi desenvolvido até aqui.
+  :open_file_folder: **Acesso ao projeto:** Há duas maneiras de visualizar o projeto, 1. No terminal, clone o projeto **git clone** (link aqui) em seguida entre no projeto com o comando **cd** (nome da pasta) depois instale como dependências com o comando **npm install** e execute a aplicação com **npm start** ou  [acesse o código fonte clicando aqui](https://exemplo.com/) 
   
   :rocket: **Tecnologias utilizadas:**
   
