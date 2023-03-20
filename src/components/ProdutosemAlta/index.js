@@ -1,5 +1,5 @@
 import { Container, Grid, Card, Chip  } from '@mui/material';
-import './style.css';
+import './style.scss';
 import tenis from './produto.png';
 import React from 'react';
 
