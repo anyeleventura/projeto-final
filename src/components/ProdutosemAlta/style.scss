@@ -1,7 +1,9 @@
 /* function produto */
+@import '../../App.scss';
 
 #ProdutosEmAlta{
-    background-color: #edf2f4;
+    // background-color: #edf2f4;
+    background-color: $grey;
 }
 
 .Produto .chip{
