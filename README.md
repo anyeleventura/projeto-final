@@ -59,32 +59,10 @@ O design completo do projeto está disponível no Figma:
    ```
   $ npm start
    ```
-   Feito isso, é possível ter acesso ao projeto através da rota: 
+   Feito isso, é possível ter acesso ao projeto através da rota: https://localhost:3000/
   
   :rocket: **Tecnologias utilizadas:**
   - HTML5
   - CSS3
   - JavaScript
   - React
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
- 
-  
- 
-  
-  
- 
-  
