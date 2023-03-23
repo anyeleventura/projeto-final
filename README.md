@@ -64,8 +64,14 @@ O design completo do projeto está disponível no Figma:
   :rocket: **Tecnologias utilizadas:**
   - HTML5
   - CSS3
+  - SCSS
   - JavaScript
   - React
+  
+  ## :computer: Densenvolvedoras
+  
+  Anyele Ventura (https://github.com/anyeleventura) | Rebeca Costa (https://github.com/rebecacostadev)  | Rosana Marques (https://github.com/rosanamarquesdev) | Taiane Andrade (https://github.com/taianeandrade) |
+
   
   
   
