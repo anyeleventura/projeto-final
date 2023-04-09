@@ -2,6 +2,8 @@ const express = require("express");
 const app = express.Router();
 const controller = require("./controller");
 
+const URL = '/carrinhos';
+
 //Listar tudo
 app.get("/carrinhos", async (req, res) => {
     res.send(await controller.buscarTudo());
